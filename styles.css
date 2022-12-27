@@ -1,0 +1,28 @@
+.header,.hero,.footer{
+    background-color: #1F2937;
+}
+
+.header{
+    max-width: 5%;
+}
+
+.hero{
+    max-width: 20%;
+}
+
+.info{
+    max-width: 25%;
+}
+
+.quote{
+    max-width: 25%;
+    background-color: #E5E7EB;
+}
+
+.cta{
+    max-width: 20%;
+}
+
+.footer{
+    max-width: 5%;
+}
