@@ -3,7 +3,9 @@
 }
 
 .header{
-    max-width: 5%;
+    display: flex;
+    justify-content: space-around;
+    color: red;
 }
 
 .hero{
@@ -25,4 +27,8 @@
 
 .footer{
     max-width: 5%;
+}
+
+* {
+    color: red;
 }
