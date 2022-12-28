@@ -55,10 +55,20 @@ body{
 
 .cta{
     max-height: 20%;
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer{
-    max-width: 5%;
+    max-height: 10%;
+    min-height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
 
 
@@ -198,3 +208,51 @@ button {
     align-self: flex-end;
     font-weight: bolder;
   }
+
+.bm{
+
+    background-color: #3882f6;
+    color: white;
+    max-width: 700px;
+    min-width:  700px;
+    min-height: 100px;
+    max-height: 100px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;  
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-self:flex-start;
+}
+
+.mhead{
+    font-weight: bold;
+
+}
+.outlinebutton{
+    justify-self:flex-end;
+}
+
+#ob{
+    border: 2px solid white;
+    
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 6px;
+    max-height: 35px;
+    min-height: 35px;
+    max-width: 135px;
+    min-width: 135px;
+    text-align: center;
+  }
+
+
+
+  
