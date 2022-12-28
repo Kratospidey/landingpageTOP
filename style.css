@@ -1,19 +1,43 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .header,.hero,.footer{
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 
 .header{
     display: flex;
-    justify-content: space-around;
-    color: red;
+    justify-content:space-between;
+    align-items: center;
+    max-height: 5%;
+    min-height: 5%;
+    padding-left: 170px;
+    padding-right: 170px;
+    padding-top: 8px;
+    padding-bottom: 110px;
+    align-items: flex-start;
+    
 }
 
 .hero{
-    max-width: 20%;
+    max-height: 25%;
+    min-height: 25%;
+    padding-bottom: 7%;
 }
 
 .info{
-    max-width: 25%;
+    padding-top: 2%;
+    max-height: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 7%;
+
 }
 
 .quote{
@@ -29,6 +53,129 @@
     max-width: 5%;
 }
 
-* {
-    color: red;
+
+li{
+    list-style: none;
 }
+a {
+    text-decoration: none;
+    color: #F9FAF8
+}
+
+.header .links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+.fl{
+    padding-left: 170px;
+    padding-right: 170px;
+    display: flex;
+    flex-direction: column;
+    max-width: 525px;
+}
+
+.fl p{
+    font-size: 18px;
+    font-weight: normal;
+    color: #E5E7EB
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8
+}
+.fl .tagline{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8
+}
+
+
+.l {
+    display: flex;
+}
+
+
+button {
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+  }
+  
+  .primary-button {
+    color: white;
+    background-color: #0078d4;
+    border: 1px solid #0078d4;
+    border-radius: 5px;
+    padding: 6.25px 15px;
+    transition: all 0.3s cubic-bezier(0.1, 0.9, 0.2, 1);
+    outline: none;
+    width: 150px;
+    height: 40px;
+  }
+  
+  .primary-button:hover {
+    background-color: #005ba1;
+  }
+  
+  .primary-button:active {
+    background-color: #0894ff;
+  }
+
+  .ih{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding-bottom: 2%;
+  }
+
+.cards{
+    display: flex;
+    gap: 30px;
+}
+  .box{
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: auto;
+    min-width: 166;
+    max-width: 166;
+    
+    border-radius: 25px;
+    border: 2px solid #3882f6;
+    padding: 20px; 
+    width: 100px;
+    height: 100px;  
+  
+  }
+
+  .cardtext{
+    display: flex;
+    gap: 30px;
+  }
+
+  .col1,.col2,.col3,.col4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    align-self: flex-start;
+  }
+
+  .ct{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+  }
